@@ -6,6 +6,8 @@ body {
 	background-color: #0064FB;
 }
 
+
+
 /************************************
 LOGO
 ************************************/
@@ -14,9 +16,11 @@ LOGO
 	height: 35px;
 	width: 133.3333px;
 	text-align: center;
-	margin: 10px auto;
+	margin: 25px auto;
 	display: block;
 }
+
+
 
 /************************************
 SIGN UP FORM
@@ -24,7 +28,7 @@ SIGN UP FORM
 
 form.signup-form {
 	box-sizing: border-box;
-	padding: auto 40px;
+	padding: 15px 40px;
 	width: 400px;
 	background-color: #F5F4F4;
 	margin: 10px auto;
@@ -33,31 +37,58 @@ form.signup-form {
 .signup-form h1 {
 	display: block;
 	text-align: center;
+	font-family: 'Droid Sans', sans-serif;
 }
 
 .signup-form label {
 	display: block;
-	margin-left: 40px;
+	font-family: 'Droid Sans', sans-serif;
 }
 
 .signup-form input {
 	display: block;
-	border: 2px solid #929090;
+	border: 2px solid #B0ABAB;
 	padding: 15px;
-	margin: 10px auto;
+	margin: 15px auto;
 	width: 320px;
+	border-radius: 1%;
+	font-family: 'Droid Sans', sans-serif;
 } 
 
 .signup-form button {
 	display: block;
 	width: 320px;
-	margin: auto auto;
+	height: 55px;
+	margin: 5px auto 0 auto;
+	padding: 15px;
+	background-color: #4DB457;
+	font-size: 1.25em;
+	font-weight: bold;
+	color: white;
+	border: 2px solid #3E8C46;
+	border-radius: 1%;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+.signup-form button:hover {
+	background-color: #29632F;
 }
 
 .signup-form .forgot {
 	text-align: center;
+	margin-top: 0;
+	color: #8F8E8E;
+	font-family: 'Droid Sans', sans-serif;
 }
+
+
+
+/************************************
+Existing User Login
+************************************/
 
 .existing-user {
 	text-align: center;
+	color: white;
+	font-family: 'Droid Sans', sans-serif;
 }
