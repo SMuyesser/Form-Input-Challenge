@@ -5,7 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 	<body>
-		<img src="logo.png" alt="AnalogSea Logo">
+		<img id="logo" src="logo.png" alt="AnalogSea Logo">
 		<form class="signup-form" action="/signup/" method="post">
 
 			<h1>Sign up</h1>
@@ -18,9 +18,9 @@
 
 			<button type="submit">Sign up</button>
 
-			<a href="/forgot-password/new">Forgot password?</a>
+			<a class="forgot" href="/forgot-password/new"><p>Forgot password?</p></a>
 
 		</form>
-		<p>Already have an account? <a href="/login">Log In</a></p>
+		<p class="existing-user">Already have an account? <a class="existing-user" href="/login">Log In</a></p>
 	</body>
 </html>
